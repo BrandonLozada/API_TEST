@@ -2,6 +2,8 @@
 
 namespace API_TEST.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class PromedioController : Controller
     {
         [HttpGet] //Ejercicio 6
