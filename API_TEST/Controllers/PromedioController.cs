@@ -16,7 +16,7 @@ namespace API_TEST.Controllers
             lstCalificaciones.Add(Calif3);
 
             double Promedio = lstCalificaciones.Average();
-            String Mensaje = "Promedio: " + Promedio;
+            string Mensaje = "Promedio: " + Promedio;
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }

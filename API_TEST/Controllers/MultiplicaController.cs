@@ -10,7 +10,7 @@ namespace API_TEST.Controllers
         [Route("Multiplica/{Num1:int}/{Num2:int}")]
         public IActionResult Multiplica(int Num1, int Num2)
         {
-            String Resultado = "La multiplicación es : " + (Num1 * Num2);
+            string Resultado = "La multiplicación es : " + (Num1 * Num2);
 
             return StatusCode(StatusCodes.Status200OK, Resultado);
         }

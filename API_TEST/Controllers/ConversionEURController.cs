@@ -11,7 +11,7 @@ namespace API_TEST.Controllers
 
             decimal precioEuro = 19.46m;
             decimal Resultado = Euros * precioEuro;
-            String Mensaje = "La conversión de " + Euros + " EUR es igual a " + Resultado + " MXN";
+            string Mensaje = "La conversión de " + Euros + " EUR es igual a " + Resultado + " MXN";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }
@@ -23,7 +23,7 @@ namespace API_TEST.Controllers
 
             decimal precioEuro = 1.06m;
             decimal Resultado = Euros * precioEuro;
-            String Mensaje = "La conversión de " + Euros + " EUR es igual a " + Resultado + " USD";
+            string Mensaje = "La conversión de " + Euros + " EUR es igual a " + Resultado + " USD";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }

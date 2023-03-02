@@ -13,7 +13,7 @@ namespace API_TEST.Controllers
 
             decimal precioPeso = 0.054m;
             decimal Resultado = Pesos * precioPeso;
-            String Mensaje = "La conversión de " + Pesos + " MXN es igual a " + Resultado + " USD";
+            string Mensaje = "La conversión de " + Pesos + " MXN es igual a " + Resultado + " USD";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }
@@ -25,7 +25,7 @@ namespace API_TEST.Controllers
 
             decimal precioPeso = 0.051m;
             decimal Resultado = Pesos * precioPeso;
-            String Mensaje = "La conversión de " + Pesos + " MXN es igual a " + Resultado + " EUR";
+            string Mensaje = "La conversión de " + Pesos + " MXN es igual a " + Resultado + " EUR";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }

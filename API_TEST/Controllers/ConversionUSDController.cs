@@ -13,7 +13,7 @@ namespace API_TEST.Controllers
 
             decimal precioDollar = 18.37m;
             decimal Resultado = Dollars * precioDollar;
-            String Mensaje = "La conversión de " + Dollars + " USD es igual a " + Resultado + " MXN";
+            string Mensaje = "La conversión de " + Dollars + " USD es igual a " + Resultado + " MXN";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }
@@ -25,7 +25,7 @@ namespace API_TEST.Controllers
 
             decimal precioDollar = 0.94m;
             decimal Resultado = Dollars * precioDollar;
-            String Mensaje = "La conversión de " + Dollars + " USD es igual a " + Resultado + " EUR";
+            string Mensaje = "La conversión de " + Dollars + " USD es igual a " + Resultado + " EUR";
 
             return StatusCode(StatusCodes.Status200OK, Mensaje);
         }

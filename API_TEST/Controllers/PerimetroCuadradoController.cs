@@ -10,7 +10,7 @@ namespace API_TEST.Controllers
         [Route("PerimetroCuadrado/{Lado:double}")]
         public IActionResult PerimetroCuadrado(double Lado)
         {
-            String Resultado = "El perímetro del cuadrado es: " + (Lado * 4);
+            string Resultado = "El perímetro del cuadrado es: " + (Lado * 4);
 
             return StatusCode(StatusCodes.Status200OK, Resultado);
         }

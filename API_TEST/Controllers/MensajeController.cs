@@ -8,9 +8,9 @@ namespace API_TEST.Controllers
     {
         [HttpGet] // Ejercicio 1
         [Route("Mensaje/{Nombre}")]
-        public IActionResult Mensaje(String Nombre)
+        public IActionResult Mensaje(string Nombre)
         {
-            String Mensaje = "Hola " + Nombre + " esta es mi primer WEB API :)";
+            string Mensaje = "Hola " + Nombre + " esta es mi primer WEB API :)";
 
             //return StatusCode(StatusCodes.Status200OK, new { Mensaje });
             return StatusCode(StatusCodes.Status200OK, Mensaje);

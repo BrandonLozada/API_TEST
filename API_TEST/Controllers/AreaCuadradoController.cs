@@ -10,7 +10,7 @@ namespace API_TEST.Controllers
         [Route("AreaCuadrado/{Lado:double}")]
         public IActionResult AreaCuadrado(double Lado)
         {
-            String Resultado = "El área del cuadrado es: " + (Lado * Lado);
+            string Resultado = "El área del cuadrado es: " + (Lado * Lado);
 
             return StatusCode(StatusCodes.Status200OK, Resultado);
         }
